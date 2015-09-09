@@ -324,6 +324,17 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
+.menu{
+ 
+}
+
+.cloned{
+  position: fixed;
+  margin-top: 0;
+  z-index: 500;
+  margin-bottom: 3em;
+}
+
 .menu ul{
   margin:auto;
   margin-bottom: -0.8em;
