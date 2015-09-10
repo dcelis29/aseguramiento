@@ -145,7 +145,6 @@ h3 {
   font-size: 24px;
   text-align: center;
   color: #539E0C;
-  margin-top: 1.5em;
 }
 
 h4 {
@@ -163,8 +162,6 @@ h6 {
 p {
   margin: 10px 0 15px 0;
   line-height: 2em;
-  font-size: 1.3em;
-  text-align: justify;
 }
 
 footer p {
@@ -298,6 +295,13 @@ dl p {
   font-style: italic;
 }
 
+hr {
+  height: 1px;
+  margin-bottom: 5px;
+  border: none;
+  background: url('../images/bg_hr.png') repeat-x center;
+}
+
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
@@ -331,13 +335,14 @@ Full-Width Styles
 .cloned{
   position: fixed;
   margin-top: 0;
-  z-index: 0;
+  z-index: 500;
   margin-bottom: 3em;
 }
 
 .cloned ul{
   display: flex;
   flex-direction: column;
+  z-index: 400;
 }
 
 .cloned li{
@@ -558,44 +563,8 @@ Small Device Styles
   }
 
 }
-.portabilidad-circunstancias{
-  margin-left: 2em;
-  font-size: 1.2em;
-}
 
-.portabilidad-requisitos{
-  font-size: 1.3em;  
-  opacity: 0.7;
-  background: #B22222;
-  color: white;
-  padding: 1em 2em;
-}
-
-.documento{
-  text-align: center;
-  font-size: 1em;
-  background: #212222;
-  color: white;
-  width: 20em;
-  margin: auto;
-}
-.documento:hover{
-  background: #CDCBC8;
-  color:red;
-  opacity: 0.6;
-}
-
-#ver_contenido h4, #ver_contenido1 h4, #ver_contenido2 h4, #ver_contenido3 h4, #ver_contenido4 h4{
-  background: #D9D9C9;
-  opacity:0.8;
-  color: #B22222;
-  margin:2px;
-}
-
-#contenido, #contenido1, #contenido2, #contenido3, #contenido4{
+#contenido{
   display: none;
+  z-index: 600;
 }
-
-
-
-

@@ -11,50 +11,6 @@ function mostrarContenido(){
 
 $ver_contenido.click(mostrarContenido);
 
-/****************Ocultar/mostrar contenido1********************/
-var $contenido1      = $("#contenido1");
-var $ver_contenido1  = $("#ver_contenido1");
-
-function mostrarContenido1(){
-    $contenido1.slideToggle();
-    return false;
-}
-
-$ver_contenido1.click(mostrarContenido1);
-
-/****************Ocultar/mostrar contenido2********************/
-var $contenido2      = $("#contenido2");
-var $ver_contenido2  = $("#ver_contenido2");
-
-function mostrarContenido2(){
-    $contenido2.slideToggle();
-    return false;
-}
-
-$ver_contenido2.click(mostrarContenido2);
-
-/****************Ocultar/mostrar contenido3********************/
-var $contenido3      = $("#contenido3");
-var $ver_contenido3  = $("#ver_contenido3");
-
-function mostrarContenido3(){
-    $contenido3.slideToggle();
-    return false;
-}
-
-$ver_contenido3.click(mostrarContenido3);
-
-/****************Ocultar/mostrar contenido4********************/
-var $contenido4      = $("#contenido4");
-var $ver_contenido4  = $("#ver_contenido4");
-
-function mostrarContenido4(){
-    $contenido4.slideToggle();
-    return false;
-}
-
-$ver_contenido4.click(mostrarContenido4);
-
 /****************Menu estático********************/
 
 // Create a clone of the menu, right next to original.
