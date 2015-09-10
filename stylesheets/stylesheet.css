@@ -29,7 +29,7 @@ by Jason Costello, @jsncostello
 
 .icon-home3:before {
   content: "\e602";
-  font-size: 4em;
+  font-size: 1.4em;
 }
 .icon-bullhorn:before {
   content: "\e603";
@@ -143,6 +143,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  text-align: center;
 }
 
 h4 {
@@ -335,10 +336,24 @@ Full-Width Styles
   margin-bottom: 3em;
 }
 
+.cloned ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.cloned li{
+  margin: 1em 0 1em -18em
+}
+
+.cloned ul li a{
+  background: white;
+  color: black;
+}
+
 .menu ul{
   margin:auto;
   margin-bottom: -0.8em;
-  width:50em;
+  width:58em;
 }
 
 .menu li{
@@ -348,7 +363,6 @@ Full-Width Styles
 }
 
 .menu ul li a{
-   border-top: 1px solid #09476e;
    background: #000000;
    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#000000));
    background: -webkit-linear-gradient(top, #ffffff, #000000);
@@ -358,7 +372,7 @@ Full-Width Styles
    padding: 0.8em;
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
-   border-radius: 0px;
+   border-radius: 16px;
    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
